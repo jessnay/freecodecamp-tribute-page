@@ -1,0 +1,76 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@600&display=swap");
+
+:root{
+    --yellow: #F2B138;
+    --brown: #57523E;
+}
+
+h1{
+    font-family:'Encode Sans SC', sans-serif;
+    font-size:50px;
+    color:var(--yellow);
+    height: 100%;
+    text-align: center;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+body{
+    background-color:#57523E ;
+}
+
+h2{
+    color:#F2B138;
+    font-size: 25px;
+    font-family:'Encode Sans SC', sans-serif;;
+}
+
+#tribute-info{
+    font-family:'Encode Sans SC', sans-serif;
+    color:#F2B138;
+    text-align: center;
+}
+
+#title{
+    background-color: #D94C1A;
+    position:sticky;
+    width:100%;
+    height: 65px;
+    top: 0;
+}
+
+
+#image{
+    max-width: none;
+    height: auto; 
+}
+
+#main{
+    text-align: justify;
+}
+
+a{
+color: black;
+font-weight: bold;
+}
+
+.container-img{
+    background-color: #A4A68A;
+    padding: 20px 0 20px 0;
+    height: 400px;
+}
+
+.container-body{
+    background-color:#A4A68A;
+    padding: 10px 10px 10px 10px;;
+}
+
+#img-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
