@@ -40,7 +40,7 @@ h2 {
   text-align: center;
 }
 
-@media only screen and (max-width: 600px) {
+
   #title {
     background-color: var(--main);
     position: sticky;
@@ -48,7 +48,7 @@ h2 {
     height: 65px;
     top: 0;
   }
-}
+
 
 #image {
   max-width: none;
@@ -75,10 +75,10 @@ a {
   padding: 10px 10px 10px 10px;
 }
 
-@media only screen and (max-width: 600px) {
+
   #img-div {
     display: flex;
     justify-content: center;
     align-items: center;
   }
-}
+
